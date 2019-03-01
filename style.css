@@ -1,0 +1,66 @@
+body {
+    margin: 0; padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    user-select: none;
+    background: #3A5683;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+#game {
+    width: 880px;
+    height: 880px;
+    background: silver;
+    margin: 0 auto;
+}
+.field{
+    width: 80px;
+    height: 80px;
+    background: url(img/11.png);
+    float:left;
+    box-sizing: border-box;
+}
+#shopPlate {
+    width: 600px;
+    height: 700px;
+    position: relative;
+    bottom:850px;
+    margin: 0 auto;
+}
+button {
+    font-size: 50px;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+.product {
+    width: 600px;
+    height: 120px;
+    background: #261C15;
+    border: 1px solid #C5D86D;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: #f0f0f0;
+    font-size: 20px;
+}
+.product:hover {
+    transition: 0.2s;
+    background: #C5D86D;
+    color:black;
+}
+.version {
+    color: white;
+    margin: 10px;
+    position: absolute;
+}
